@@ -1,7 +1,30 @@
 <html>
     <head>
         <style>
+            body {
+                padding-bottom: 350px;
+            }
+            #caixa {
+                height: 100px;
+                width: 100px;
+                background-color: brown;
+                border-color: aqua;
+                border-radius: 12px; color: white;
+                /* padding espaçamento interno */
 
+                padding: 10px;
+                margin: 10px;
+
+            }
+
+            .center {
+                color: blueviolet;
+                text-align: center;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+            }
         </style>
         <title>
             Meu primeiro HTML
@@ -22,6 +45,81 @@
         <br>
         <hr>
         <img src="img/i267932.jpeg" width="200px" alt="Planeta Super Saturno">
+
+        <div id="caixa">
+            <h2>Teste</h2>
+        </div>
+
+        <div class="center">
+            <span>Testando Span Centralizado</span>
+
+            <h3>textando centralizado</h3>
+
+        </div>
+
+        <div class="center">
+            <p>Este é um Paragrafo</p>
+        </div>
+
+        <h4> Lista ordenada</h4>
+
+        <ol>
+        
+            <li>
+                <pre>git estatutus</pre>
+            </li>
+            <li>
+                <pre>git comit -m "mensagem"</pre>
+            </li>
+
+            <li>
+                <pre>git comit -m "mensagem"</pre>
+            </li>
+        </ol>
+        <h4> Lista não ordenada</h4>
+        <ul>
+            <li>
+                <pre>git estatutus</pre>
+            </li>
+            <li>
+                <pre>git comit -m "mensagem"</pre>
+            </li>
+
+            <li>
+                <pre>git comit -m "mensagem"</pre>
+            </li>
+        </ul>
+
+        <!-- tebela -->
+        <h3>Filmes Favoritos</h3>
+        
+
+        <table>
+
+             <!--1a linha da tabela sao colunas th (table head)-->
+            <tr>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Estrelas</th>
+                
+            </tr>
+
+            <!--As seguintes sao os dados-->
+
+            <tr>
+                <td>O problema dos 3 corpos</td>
+                <td>Ficção</td>
+                <td>7.7</td>
+                <tr>
+                    <td>Matador de Aluguel</td>
+                    <td>Ação</td>
+                    <td>6.2</td>
+
+                </tr>
+                
+
+            </tr>
+        </table>
 
 
 
